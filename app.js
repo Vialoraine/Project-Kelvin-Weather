@@ -1,5 +1,5 @@
 //Temperature in Kelvin
-const kelvin = 293;
+const kelvin = 0;
 
 //Temperature in Celsius (conversion from Kelvin)
 let celsius = kelvin - 273;
