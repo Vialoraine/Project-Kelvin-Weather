@@ -5,4 +5,5 @@ const kelvin = 293;
 let celsius = kelvin - 273;
 
 //Temperature in Fahrenheit (conversion from Celsius)
-let fahrenheit = celsius * (9/5) + 32;
+//Used Math.floor() method to round number to whole number
+let fahrenheit = Math.floor(celsius * (9/5) + 32);
